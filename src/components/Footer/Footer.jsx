@@ -37,6 +37,9 @@ const Footer = () => {
             Gatsby
           </a>
         </p>
+        <p className="footer__text">
+          <a href="#legal" rel="noopener noreferrer">Legal Notice</a> - <a href="#privacy" rel="noopener noreferrer">Privacy Policy</a>
+        </p>
       </Container>
     </footer>
   );

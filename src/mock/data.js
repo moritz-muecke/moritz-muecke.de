@@ -30,26 +30,26 @@ export const skillsData = [
   {
     id: uuidv1(),
     img: 'backend-development.png',
-    title: 'Backend Development',
-    info: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.'
+    title: 'Software Development',
+    info: 'Building production ready reactive Microservices has been one major topic for me the past years using state of the art technologies to create APIs, persistence layers and event sourcing. Those projects have been realized in a variety of different industries like telecommunication, aviation and logistics.'
   },
   {
     id: uuidv1(),
     img: 'iam.png',
     title: 'Identity- and Access Management',
-    info: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.'
+    info: 'Securing APIs in distributed systems is essential to protect resources from unauthorized access. Authorization, Authentication, OAuth2 and OpenID Connect are the big buzzwords here. Another huge topic is to bundle a variety of identity management systems within a Single Sign On Provider.'
   },
   {
     id: uuidv1(),
     img: 'cicd.png',
     title: 'CI / CD',
-    info: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.'
+    info: 'A good automated workflow to build, test and deploy/ship your software can be a game changer in efficiency. There are many good open source tools out there which help us to create a good fitting Continues Integration and Deployment solution. In my recent projects we put a lot of effort in building pipelines and concepts for release processes in high scaling systems like Kubernetes.'
   },
   {
     id: uuidv1(),
     img: 'app.png',
     title: 'App Development',
-    info: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.'
+    info: 'It all started out of curiosity but meanwhile we use the mobile Framework Flutter at the Haune-Rock Festival to build native iOS and Android apps. The development kit developed by google comes with the programming language dart, which is more than promising.'
   }
 ];
 

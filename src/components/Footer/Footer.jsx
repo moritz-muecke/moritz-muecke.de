@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import { Container } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
-import GithubButtons from '../GithubButtons/GithubButtons';
 
 const Footer = () => {
   const { footer } = useContext(PortfolioContext);

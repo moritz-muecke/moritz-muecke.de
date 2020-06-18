@@ -4,6 +4,7 @@
   margin-bottom: -1px;
 
   .contact-wrapper {
+
     margin-top: 3.2rem;
     padding: 0 2rem;
     backface-visibility: hidden;
@@ -18,7 +19,7 @@
 
       // Responsive for contact text
       @include respond(phone) {
-        font-size: 2rem;
+        font-size: 1.8rem;
       }
     }
   }

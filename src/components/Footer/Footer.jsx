@@ -1,6 +1,12 @@
-import React, { useContext } from 'react';
+import React, { useContext, Fragment } from 'react';
 import { Container } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
+import Accordion from 'react-bootstrap/Accordion';
+import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button';
+
+import Imprint from './Imprint';
+import Privacy from './Privacy';
 
 const Footer = () => {
   const { footer } = useContext(PortfolioContext);
@@ -37,7 +43,21 @@ const Footer = () => {
           </a>
         </p>
         <p className="footer__text">
-          <a href="#legal" rel="noopener noreferrer">Legal Notice</a> - <a href="#privacy" rel="noopener noreferrer">Privacy Policy</a>
+          <Accordion>
+            <Card className="footerAccordion">
+              <Card.Header className="footerAccordion">
+                <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                  Legal Notice & Privacy Policy
+                </Accordion.Toggle>
+              </Card.Header>
+              <Accordion.Collapse eventKey="1">
+                <Fragment>
+                  <Imprint/>
+                  <Privacy/>
+                </Fragment>
+              </Accordion.Collapse>
+            </Card>
+          </Accordion>
         </p>
       </Container>
     </footer>

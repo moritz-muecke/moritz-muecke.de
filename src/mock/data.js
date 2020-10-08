@@ -19,7 +19,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.png',
-  paragraphOne: 'Hi I\'m Moritz, 32 years old software engineer from Kassel. In 2016 I finished my B.Sc. degree in Media and Computer Science at the RheinMain University of Applied Sciences. I am working in the IT business since 2005. At the moment I am working for the awesome company',
+  paragraphOne: 'Hi I\'m Moritz, 33 years old software engineer from Kassel. In 2016 I finished my B.Sc. degree in Media and Computer Science at the RheinMain University of Applied Sciences. I am working in the IT business since 2005. At the moment I am working for the awesome company',
   paragraphOneWork: 'AOE GmbH.',
   paragraphTwo: 'I spent the past years with designing and developing web applications and microservices, doing Identity- and Access Management (IAM) stuff like single sign on and lots of DevOps related work.',
   paragraphThree: 'Besides my work as a software engineer I\'m organizing a Rock-Music Festival with some friends called Haune-Rock. It takes place in Germany in a small village called Haunetal-Odensachsen.'

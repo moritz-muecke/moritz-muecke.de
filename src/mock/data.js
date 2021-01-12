@@ -20,7 +20,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.png',
   paragraphOne: 'Hi I\'m Moritz, 33 years old software engineer from Kassel. In 2016 I finished my B.Sc. degree in Media and Computer Science at the RheinMain University of Applied Sciences. I am working in the IT business since 2005. At the moment I am working for the awesome company',
-  paragraphOneWork: 'AOE GmbH.',
+  paragraphOneWork: 'dreamIT GmbH.',
   paragraphTwo: 'I spent the past years with designing and developing web applications and microservices, doing Identity- and Access Management (IAM) stuff like single sign on and lots of DevOps related work.',
   paragraphThree: 'Besides my work as a software engineer I\'m organizing a Rock-Music Festival with some friends called Haune-Rock. It takes place in Germany in a small village called Haunetal-Odensachsen.'
 };
@@ -44,12 +44,6 @@ export const skillsData = [
     img: 'cicd.png',
     title: 'CI / CD',
     info: 'A good automated workflow to build, test and deploy/ship your software can be a game changer in efficiency. There are many good open source tools out there which help us to create a good fitting Continues Integration and Deployment solution. In my recent projects we put a lot of effort in building pipelines and concepts for release processes in high scaling systems like Kubernetes.'
-  },
-  {
-    id: uuidv1(),
-    img: 'app.png',
-    title: 'App Development',
-    info: 'It all started out of curiosity but meanwhile we use the mobile Framework Flutter at the Haune-Rock Festival to build native iOS and Android apps. The development kit developed by google comes with the programming language dart, which is more than promising.'
   }
 ];
 

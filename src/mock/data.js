@@ -19,10 +19,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.png',
-  paragraphOne: 'Hi I\'m Moritz, 33 years old software engineer from Kassel. In 2016 I finished my B.Sc. degree in Media and Computer Science at the RheinMain University of Applied Sciences. I am working in the IT business since 2005. At the moment I am working for the awesome company',
-  paragraphOneWork: 'AOE GmbH as an IAM Architect.',
-  paragraphTwo: 'I spent the past years with designing and developing web applications and microservices, doing Identity- and Access Management (IAM) stuff like single sign on and lots of DevOps related work.',
-  paragraphThree: 'Besides my work as a software engineer I\'m organizing a Rock-Music Festival with some friends called Haune-Rock. It takes place in Germany in a small village called Haunetal-Odensachsen.'
+  paragraphOne: 'Hi I\'m Moritz, 36 years old software engineer from Bad Hersfeld. In 2016 I finished my B.Sc. degree in Media and Computer Science at the RheinMain University of Applied Sciences. I am working in the IT business since 2005. At the moment I am working for the awesome company',
+  paragraphOneWork: 'AOE GmbH as a Senior Software Developer.',
+  paragraphTwo: 'I spent the past years with designing and developing web applications and microservices, creating Software Architectures, doing Identity- and Access Management (IAM) stuff like single sign on and lots of DevOps related work.',
+  paragraphThree: 'Besides my work as a software engineer I\'m organizing a Music Festival with some friends called Haune-Rock. It takes place in Germany in a small village called Haunetal-Odensachsen.'
 };
 
 // SKILLS DATA
@@ -37,7 +37,7 @@ export const skillsData = [
     id: uuidv1(),
     img: 'iam.png',
     title: 'Identity- and Access Management',
-    info: 'Securing APIs in distributed systems is essential to protect resources from unauthorized access. Authorization, Authentication, OAuth2 and OpenID Connect are the big buzzwords here. Another huge topic is to bundle a variety of identity management systems within a Single Sign On Provider.'
+    info: 'Securing APIs in distributed systems is essential to protect resources from unauthorized access. Authorization, Authentication, OAuth2, SAML and OpenID Connect are just some of the big buzzwords here. Another huge topic is to bundle a variety of identity management systems within a Single Sign On Provider.'
   },
   {
     id: uuidv1(),
@@ -70,11 +70,6 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: uuidv1(),
-      name: 'twitter',
-      url: 'https://twitter.com/moritz_muecke',
-    },
     {
       id: uuidv1(),
       name: 'linkedin',

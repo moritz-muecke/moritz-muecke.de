@@ -11,14 +11,14 @@ const Imprint = () => {
         <br />
         Moritz M&uuml;cke
         <br />
-        Elfbuchenstra&szlig;e 20
+        Langenbergstra&szlig;e 7
         <br />
-        34119 Kassel
+        36251 Bad Hersfeld
       </p>
 
       <h4>Contact</h4>
       <p>
-        Telephone: 01608116330
+        Phone: +491608116330
         <br />
         E-Mail: <a href="mailto:hi@moritz-muecke.de">hi@moritz-muecke.de</a>
         <br />

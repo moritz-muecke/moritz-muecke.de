@@ -1,4 +1,5 @@
 import uuidv1 from 'uuid/v1';
+import {calculateAge} from "./age";
 
 // HEAD DATA
 export const headData = {
@@ -19,7 +20,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.png',
-  paragraphOne: 'Hi I\'m Moritz, 36 years old software engineer from Bad Hersfeld. In 2016 I finished my B.Sc. degree in Media and Computer Science at the RheinMain University of Applied Sciences. I am working in the IT business since 2005. At the moment I am working for the awesome company',
+  paragraphOne: `Hi I'm Moritz, ${calculateAge()} years old software engineer from Bad Hersfeld. In 2016 I finished my B.Sc. degree in Media and Computer Science at the RheinMain University of Applied Sciences. I am working in the IT business since 2005. At the moment I am working for the awesome company`,
   paragraphOneWork: 'AOE GmbH as a Senior Software Developer.',
   paragraphTwo: 'I spent the past years with designing and developing web applications and microservices, creating Software Architectures, doing Identity- and Access Management (IAM) stuff like single sign on and lots of DevOps related work.',
   paragraphThree: 'Besides my work as a software engineer I\'m organizing a Music Festival with some friends called Haune-Rock. It takes place in Germany in a small village called Haunetal-Odensachsen.'
